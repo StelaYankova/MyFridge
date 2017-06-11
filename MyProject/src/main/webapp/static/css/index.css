@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+body {
+	background:
+		url(http://www.lg.com/us/images/appliances/features/M02A_CategoryHero_SideBySide_1_Background.jpg)
+		no-repeat fixed;
+	background-size: cover;
+}
+
+#login-box {
+	position: absolute;
+	width: 300px;
+	top: 40%;
+	left: 70%;
+	padding: 20px;
+	margin: 100px auto;
+	background-color: transparent;
+	border: 1px solid #000;
+}
+
+#welcome {
+	margin-left: 5em;
+}
+
+.align-text {
+	text-align: center;
+}
+
+#wrongData {
+	color: red;
+}

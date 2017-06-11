@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+#mainPart {
+	left: 170px;
+	top: 60px;
+	width: 1000px;
+	overflow: hidden;
+	display: inline-block;
+	white-space: nowrap;
+	position: relative;
+}
+
+.container {
+	margin: 0em 5em 5em 5em;
+}
+
+body {
+	background:
+		url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKmTpZpAg_yvvosrutOOKjOeNWmn4PuUm2FEHymA479qkdG4pSvw)
+		no-repeat fixed;
+	background-size: cover;
+}
+
+.visible {
+	position: absolute;
+	visibility: visible;
+}
+
+.wrapword {
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -webkit-pre-wrap; /*Chrome & Safari */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	white-space: pre-wrap; /* css-3 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	word-break: break-all;
+	white-space: normal;
+}
+
+.invisible {
+	position: relative;
+	visibility: hidden;
+}
+
+.red {
+	color: red;
+}
+
+table {
+	table-layout: fixed;
+}
+
+td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#invalid {
+	position: absolute;
+	left: 470px;
+}
+
+td span {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+td {
+	word-wrap: break-word
+}
+
+#heading {
+	font-size: 150%;
+	font-weight: bold;
+	font-style: italic;
+	position: absolute;
+	left: 170px;
+	top: 235px;
+}

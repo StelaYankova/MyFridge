@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+#instructions {
+	width: 50%;
+}
+
+.container {
+	margin: 0em 5em 5em 5em;
+}
+
+#missingcookNow {
+	position: relative;
+	top: 40px;
+	left: 50px;
+}
+
+#mainPart {
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+
+body {
+	background:
+		url(http://www.lg.com/us/images/appliances/features/M03A_CategoryHero_CounterDepth_1_Background.jpg)
+		no-repeat fixed;
+	background-size: cover;
+}
+
+#invalid {
+	position: absolute;
+	left: 470px;
+}
+
+#notEnoughProducts {
+	color: red;
+}
+
+#mainPart img {
+	height: auto;
+	width: 14%;
+}

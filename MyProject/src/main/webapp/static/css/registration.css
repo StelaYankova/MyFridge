@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+body {
+	background:
+		url(http://www.lg.com/us/images/appliances/features/M03A_CategoryHero_CounterDepth_1_Background.jpg)
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	margin: 0em 5em 5em 5em;
+}
+
+#form {
+	position: fixed;
+	left: 90px;
+	top: 250px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 2em;
+	width: 47%;
+}

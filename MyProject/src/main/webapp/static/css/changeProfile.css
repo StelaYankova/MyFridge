@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+body {
+	background:
+		url(http://www.lg.com/us/images/appliances/features/M03A_CategoryHero_CounterDepth_1_Background.jpg)
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.col-sm-8 {
+	width: 80% !important;
+}
+
+.container {
+	margin: 0em 5em 5em 5em;
+}
+
+#mainPart {
+	position: absolute;
+	z-index: 1;
+	top: 150px;
+	left: 70px;
+	width: 1400px;
+}
+
+#removeProfile {
+	position: absolute;
+	top: 300px;
+	left: 287px;
+	z-index: 1;
+}
+
+div#mainPart {
+	width: 1080px;
+	z-index: -1;
+}
